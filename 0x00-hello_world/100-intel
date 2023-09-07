@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=INTEL $CFILE -o
+gcc -S -masm=INTEL $CFILE
