@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "input file name"
+read file
+echo -e "#include <stdio.h>\n/***/\nint main(void)\n{\n\n\n\n	return 0;\n\n}" > ${file}
+chmod +x ${file}
